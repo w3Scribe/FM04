@@ -78,6 +78,22 @@ export default function Accordion(): JSX.Element {
           )}
         </div>
       </div>
+      <p className="absolute bottom-0 text-xs p-4 text-zinc-800">
+        Challange By{" "}
+        <a
+          href="https://www.frontendmentor.io/"
+          className="underline underline-offset-2 decoration-slate-400 font-semibold"
+        >
+          Frontend Mentor
+        </a>{" "}
+        and coded by{" "}
+        <a
+          href="https://www.frontendmentor.io/profile/w3Scribe"
+          className="underline underline-offset-2 decoration-slate-400 font-semibold"
+        >
+          Sudhir Gadpayle
+        </a>
+      </p>
     </main>
   );
 }

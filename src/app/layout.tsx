@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-work-sans`}>{children}</body>
+      <body className={`font-work-sans`}>
+        {children}
+       
+      </body>
     </html>
   );
 }
