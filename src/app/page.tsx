@@ -68,13 +68,12 @@ export default function Accordion(): JSX.Element {
                 <AnimatePresence>
                   {isOpen === key && (
                     <motion.div
-                      className="mt-1"
                       variants={openTransition}
                       initial="initial"
                       animate="animate"
                       exit="exit"
                     >
-                      <p className="text-xs sm:text-sm  text-dark-purple text-justify pr-5">
+                      <p className="text-xs sm:text-sm  text-dark-purple text-justify py-3 pr-5">
                         {desc}
                       </p>
                     </motion.div>
