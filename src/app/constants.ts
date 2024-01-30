@@ -6,7 +6,7 @@ interface IAccordions {
 const accordionData: IAccordions[] = [
   {
     title: "What is Frontend Mentor, and how it will  help me?",
-    desc: "Frontend Mentor is a platform offering real-world web development challenges to enhance your frontend skills. It provides projects with design files and requirements to practice HTML, CSS, and JavaScript. By completing these challenges, you'll gain practical experience, improve your coding abilities, and build a portfolio to showcase your skills to potential employers. It's a valuable resource for aspiring front-end developers.",
+    desc: "Frontend Mentor offers real-world web development challenges to boost your frontend skills. It provides design-based projects for hands-on practice with HTML, CSS, and JavaScript. Completing these challenges enhances your abilities, builds your portfolio, and makes you job-ready.",
   },
   {
     title: "Is Frontend Mentor Free?",

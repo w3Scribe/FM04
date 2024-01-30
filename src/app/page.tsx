@@ -6,7 +6,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
 export default function Accordion(): JSX.Element {
-  const [isOpen, setIsOpen] = useState<number | null>(null);
+  const [isOpen, setIsOpen] = useState<number | null>(0);
 
   const getControlIconSrc = (key: number) => {
     return isOpen === key ? "/icon-minus.svg" : "/icon-plus.svg";
