@@ -1,5 +1,11 @@
 import type { Config } from "tailwindcss";
 
+const colors = {
+  "light-pink": "#f9f0ff",
+  "grayish-purple": "#8c6991",
+  "dark-purple": "#2f1533",
+};
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,11 +14,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        "work-sans": "'Work Sans', sans-serif",
       },
+      backgroundImage: {
+        desk: 'url("/bg-desk.svg")',
+        mobile: 'url("/bg-mobile.svg")',
+      },
+      backgroundColor: colors,
+      textColor: colors,
+      boxShadowColor: colors
     },
   },
   plugins: [],
